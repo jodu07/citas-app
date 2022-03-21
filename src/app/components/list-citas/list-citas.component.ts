@@ -1,6 +1,7 @@
 
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
+
 @Component({
   selector: 'app-list-citas',
   templateUrl: './list-citas.component.html',

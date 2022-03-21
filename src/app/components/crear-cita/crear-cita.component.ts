@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Cita } from '../../interface/cita.interface';
 
 @Component({
   selector: 'app-crear-cita',
@@ -6,6 +7,9 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./crear-cita.component.css']
 })
 export class CrearCitaComponent implements OnInit {
+
+
+  //cita!: Cita;
 
   nombre = '';
   fecha = '';

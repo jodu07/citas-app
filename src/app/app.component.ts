@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Cita } from './interface/cita.interface';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  listCitas: any[] = [];
+  listCitas: Cita[] = [];
 
   agregarCita(cita: any){
 
